@@ -1,2 +1,8 @@
 name: Quality checks
 on: push
+
+jobs:
+  check_quality:
+    name: Several quality checks
+    runs-on: ubuntu-latest
+    
